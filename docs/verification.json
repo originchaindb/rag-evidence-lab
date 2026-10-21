@@ -1,0 +1,32 @@
+{
+  "project": "rag-evidence-lab",
+  "language": "Python",
+  "local": {
+    "status": "passed",
+    "platform": "Windows",
+    "timestamp": "2026-10-21T16:09:20.995059+00:00",
+    "checks": [
+      "C:\\Users\\Lalith\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    ],
+    "fixture_sha256": "aaa534f22f2a910f45ca8d69411a2ba61c4667409b0ee92d6fd56d2d4b23135b"
+  },
+  "live_model_calls": 0,
+  "container_tested": false,
+  "cloud": {
+    "status": "passed",
+    "service": "OriginChainDB Cloud Free",
+    "plan_evidence": "Cloud console showed Free, Running, No charge on 2026-10-21",
+    "namespace": "starter_20261021_88d50002c3",
+    "run_id": "a4d6a860c6ae4ebda917ec70177be81a",
+    "checks": [
+      "schema registration",
+      "existing schema verification",
+      "row write",
+      "fresh-client read",
+      "SQL list",
+      "separate-process read"
+    ],
+    "synthetic_data_retained": true,
+    "timestamp": "2026-10-21T16:11:22.025296+00:00"
+  }
+}

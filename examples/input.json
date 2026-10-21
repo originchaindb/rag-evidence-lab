@@ -1,0 +1,45 @@
+{
+  "documents": {
+    "refund": "Refunds are available within 14 days."
+  },
+  "cases": [
+    {
+      "id": "correct",
+      "answer": "You have 14 days.",
+      "answerable": true,
+      "abstained": false,
+      "expected_terms": [
+        "14 days"
+      ],
+      "citations": [
+        {
+          "document_id": "refund",
+          "quote": "within 14 days"
+        }
+      ]
+    },
+    {
+      "id": "valid-citation-wrong-answer",
+      "answer": "You have 90 days.",
+      "answerable": true,
+      "abstained": false,
+      "expected_terms": [
+        "14 days"
+      ],
+      "citations": [
+        {
+          "document_id": "refund",
+          "quote": "within 14 days"
+        }
+      ]
+    },
+    {
+      "id": "unknown-plan",
+      "answer": "The docs do not specify this.",
+      "answerable": false,
+      "abstained": true,
+      "expected_terms": [],
+      "citations": []
+    }
+  ]
+}

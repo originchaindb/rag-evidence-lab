@@ -1,0 +1,24 @@
+{
+  "passed": false,
+  "cases": [
+    {
+      "id": "correct",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "valid-citation-wrong-answer",
+      "passed": false,
+      "reasons": [
+        "missing_expected_term:14 days"
+      ]
+    },
+    {
+      "id": "unknown-plan",
+      "passed": true,
+      "reasons": []
+    }
+  ],
+  "pass_rate": 0.6666666666666666,
+  "grading": "literal checks, not semantic entailment"
+}
