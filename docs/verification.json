@@ -6,7 +6,8 @@
     "platform": "Windows",
     "timestamp": "2026-10-21T16:09:20.995059+00:00",
     "checks": [
-      "C:\\Users\\Lalith\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+      "python -m unittest discover -s tests -v",
+      "python app.py run examples/input.json"
     ],
     "fixture_sha256": "aaa534f22f2a910f45ca8d69411a2ba61c4667409b0ee92d6fd56d2d4b23135b"
   },
