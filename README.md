@@ -63,9 +63,9 @@ This is a small CLI/reference implementation, not a hosted service. It has no pu
 
 ## References
 
-- [OriginChainDB HTTP API](https://originchaindb.com/docs/api) â€” schemas, rows, SQL and authentication.
-- [OriginChainDB SQL](https://originchaindb.com/docs/sql) â€” query semantics.
-- [Anthropic: evaluating AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) â€” motivation for outcome-based checks.
-- [Anthropic: context engineering](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents) â€” context selection tradeoffs.
+- [OriginChainDB HTTP API](https://originchaindb.com/docs/api) - schemas, rows, SQL and authentication.
+- [OriginChainDB SQL](https://originchaindb.com/docs/sql) - query semantics.
+- [Anthropic: evaluating AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) - motivation for outcome-based checks.
+- [Anthropic: context engineering](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents) - context selection tradeoffs.
 
 MIT licensed. Contributions should include a reproducible input, expected behavior, and a regression test. Never put credentials or customer data in issues.
